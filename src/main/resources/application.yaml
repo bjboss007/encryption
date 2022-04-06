@@ -1,1 +1,12 @@
+server:
+  port: 8089
 
+spring:
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/entityconverter
+    username: postgres
+    password: postgres
